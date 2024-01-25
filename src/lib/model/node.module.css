@@ -1,0 +1,49 @@
+@import "@fontsource/noto-sans/700.css";
+
+.container {
+  display: block;
+  font-size: 0.75em;
+  color: #f6f6f6;
+  background-color: #595959;
+  border: 1px solid #878787;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.category {
+}
+
+.branding {
+  font-size: 1em;
+  padding: 0.25em;
+  background-color: var(--brand-color);
+
+  line-height: 1em;
+  border-bottom: inset 2px rgba(0, 0, 0, 0.7);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5em;
+  color: white;
+}
+
+.brandingIcon {
+  height: 1em;
+  width: 1em;
+}
+
+.brandingName {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+
+  font-variant: all-small-caps;
+}
+
+.nodeInfo {
+  /* font-variant: small-caps; */
+  /* padding-block: 0.25em; */
+  padding-inline: 0.5em;
+  border-bottom: 1px solid #878787;
+}
